@@ -11,19 +11,19 @@ public class 三种循环的区别46 {
         "j"在循环体外在循环结束时“j"仍能继续输出。
          */
             for(int i=1;i<=5;i++){
-                System.out.println("晶晶老美了");
+                System.out.println("老美了");
             }
             System.out.println("-------");
             int j=1;
             while(j<=5){
 
-                System.out.println("晶晶老婆");
+                System.out.println("老婆");
                 j++;
             }
             System.out.println("-------");
             int i=1;
             do {
-                System.out.println("晶晶老婆最美");
+                System.out.println("老婆最美");
                 i++;
 
             }while(i<10);
